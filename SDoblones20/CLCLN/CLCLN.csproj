@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3B0D7A6-EF48-45B3-A991-5335DC81A8A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLCLN</RootNamespace>
+    <AssemblyName>CLCLN</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contabilidad\AsientosCLN.cs" />
+    <Compile Include="Contabilidad\AsientosDetalleCLN.cs" />
+    <Compile Include="Contabilidad\BalanceGeneralCLN.cs" />
+    <Compile Include="Contabilidad\CajaMovimientosCLN.cs" />
+    <Compile Include="Contabilidad\CajaMovimientosDetalleCLN.cs" />
+    <Compile Include="Contabilidad\ConceptosCLN.cs" />
+    <Compile Include="Contabilidad\ConfiguracionesTransaccionesCuentasCLN.cs" />
+    <Compile Include="Contabilidad\CuentasConfiguracionCLN.cs" />
+    <Compile Include="Contabilidad\CuentasPorCobrarCLN.cs" />
+    <Compile Include="Contabilidad\CuentasPorCobrarCobrosCLN.cs" />
+    <Compile Include="Contabilidad\CuentasPorPagarCLN.cs" />
+    <Compile Include="Contabilidad\CuentasPorPagarPagosCLN.cs" />
+    <Compile Include="Contabilidad\EstadoResultadosCLN.cs" />
+    <Compile Include="Contabilidad\FuncionesContabilidad.cs" />
+    <Compile Include="Contabilidad\LibroDiarioCLN.cs" />
+    <Compile Include="Contabilidad\LibroMayoresCLN.cs" />
+    <Compile Include="Contabilidad\MonedasFraccionesCLN.cs" />
+    <Compile Include="Contabilidad\PlanCuentasCLN.cs" />
+    <Compile Include="GestionComercial\CompraProductosGastosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDetalleEntregaCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDevolucionesCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDevolucionesDetalleCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDevolucionesEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosPagosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\CreditosCLN.cs" />
+    <Compile Include="GestionComercial\CreditosCuotasCLN.cs" />
+    <Compile Include="GestionComercial\CreditosCuotasPagosCLN.cs" />
+    <Compile Include="GestionComercial\GastosTiposTransaccionesCLN.cs" />
+    <Compile Include="GestionComercial\MedioTransporteCLN.cs" />
+    <Compile Include="GestionComercial\OrigenMercaderiaCLN.cs" />
+    <Compile Include="GestionComercial\ProductosCompuestosCLN.cs" />
+    <Compile Include="GestionComercial\ProductosEmpresasListaCLN.cs" />
+    <Compile Include="GestionComercial\ProductosEmpresasListaDetalleCLN.cs" />
+    <Compile Include="GestionComercial\ProductosTiposGarantiasCLN.cs" />
+    <Compile Include="GestionComercial\ServiciosCLN.cs" />
+    <Compile Include="GestionComercial\TransferenciasProductosCLN.cs" />
+    <Compile Include="GestionComercial\TransferenciasProductosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\TransferenciasProductosDetalleRecepcionCLN.cs" />
+    <Compile Include="GestionComercial\TransferenciasProductosEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\TransferenciasProductosGastosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosDevolucionesCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosDevolucionesDetalleCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosDevolucionesEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemplazoCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemplazoDetalleCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemplazoDevolucionesCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemplazoDevolucionesDetalleCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemplazoEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\VentasServiciosCLN.cs" />
+    <Compile Include="GestionComercial\VentasServiciosDetalleCLN.cs" />
+    <Compile Include="Sistema\AgenciasCLN.cs" />
+    <Compile Include="Sistema\BancosCLN.cs" />
+    <Compile Include="GestionComercial\ClientesCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosDocuImagCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosEspecificosAgregadosCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosEspecificosReemDevoCambiosCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosEspecificosReemDevoCLN.cs" />
+    <Compile Include="GestionComercial\ComprasProductosReemDevoCLN.cs" />
+    <Compile Include="Sistema\PersonasCLN.cs" />
+    <Compile Include="Sistema\PCsConfiguracionesCLN.cs" />
+    <Compile Include="GestionComercial\CotizacionVentasProductosCLN.cs" />
+    <Compile Include="GestionComercial\CotizacionVentasProductosDetaCLN.cs" />
+    <Compile Include="Sistema\DepartamentosCLN.cs" />
+    <Compile Include="Sistema\DocumentosTiposCLN.cs" />
+    <Compile Include="Sistema\FrecuenciasPagosCLN.cs" />
+    <Compile Include="Sistema\FuncionesSistemaCLN.cs" />
+    <Compile Include="Sistema\InterfacesSistemaCLN.cs" />
+    <Compile Include="GestionComercial\InventariosProductosCLN.cs" />
+    <Compile Include="GestionComercial\InventariosProductosEspecificosCLN.cs" />
+    <Compile Include="Sistema\LugaresCLN.cs" />
+    <Compile Include="Sistema\MonedasCLN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sistema\MonedasCotizacionesCLN.cs" />
+    <Compile Include="Sistema\MotivosReemDevoCLN.cs" />
+    <Compile Include="Sistema\PaisesCLN.cs" />
+    <Compile Include="GestionComercial\ProductosCLN.cs" />
+    <Compile Include="GestionComercial\ProductosDescripcionCLN.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GestionComercial\ProductosImagenesCLN.cs" />
+    <Compile Include="GestionComercial\ProductosMarcasCLN.cs" />
+    <Compile Include="GestionComercial\ProductosPropiedadesCLN.cs" />
+    <Compile Include="GestionComercial\ProductosTiposCLN.cs" />
+    <Compile Include="GestionComercial\ProductosUnidadesCLN.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GestionComercial\ProveedoresCLN.cs" />
+    <Compile Include="Sistema\ProvinciasCLN.cs" />
+    <Compile Include="GestionComercial\TransaccionesUtilidadesCLN.cs" />
+    <Compile Include="Sistema\SistemaGruposCLN.cs" />
+    <Compile Include="Sistema\SistemaGruposPermisosInterfacesCLN.cs" />
+    <Compile Include="Sistema\SistemaGruposUsuariosCLN.cs" />
+    <Compile Include="Sistema\SistemaMenuPrincipalCLN.cs" />
+    <Compile Include="Sistema\SistemasInterfacesCLN.cs" />
+    <Compile Include="Sistema\UsuariosAgenciasPermisosInterfacesCLN.cs" />
+    <Compile Include="Sistema\UsuariosCLN.cs" />
+    <Compile Include="Sistema\UsuariosAgenciasMenuPrincipalCLN.cs" />
+    <Compile Include="GestionComercial\VentasFacturasCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosDetalleCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosEspecificosAgregadosCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosEspecificosCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosEspecificosReemDevoCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosProcStoredCLN.cs" />
+    <Compile Include="GestionComercial\VentasProductosReemDevoCLN.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GestionComercial\CDDoblones20CLN.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLCAD\CLCAD.csproj">
+      <Project>{3B2B7702-A0F7-485C-9CB6-7A514694FCC0}</Project>
+      <Name>CLCAD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

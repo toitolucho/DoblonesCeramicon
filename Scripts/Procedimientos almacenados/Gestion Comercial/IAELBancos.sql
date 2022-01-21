@@ -1,0 +1,114 @@
+USE DOBLONES20
+GO
+
+
+
+DROP PROCEDURE InsertarBanco
+GO
+CREATE PROCEDURE InsertarBanco
+	@CodigoBanco	TINYINT,
+	@NombreBanco	VARCHAR(250)
+AS
+BEGIN
+
+	BEGIN TRANSACTION
+	IF(NOT EXISTS (SELECT * FROM Bancos WHERE NombreBanco = @NombreBanco))
+		INSERT INTO dbo.Bancos (NombreBanco)								
+		VALUES (@NombreBanco)
+	ELSE
+		RAISERROR ('EL NOMBRE DEL BANCO YA SE ENCUENTRA REGISTRADO',16, 2)
+	IF(@@ERROR <> 0)
+	BEGIN
+		ROLLBACK TRANSACTION
+		RAISERROR ('NO SE PUDO INSERTAR CORRECTAMENTE EL REGISTRO',16, 2)
+	END
+	ELSE
+		COMMIT TRANSACTION
+
+
+END
+GO
+
+
+
+DROP PROCEDURE ActualizarBanco
+GO
+CREATE PROCEDURE ActualizarBanco
+	@CodigoBanco	TINYINT,
+	@NombreBanco	VARCHAR(250)
+AS
+BEGIN
+	
+	
+	BEGIN TRANSACTION
+	IF(NOT EXISTS (SELECT * FROM Bancos WHERE NombreBanco = @NombreBanco AND CodigoBanco <> @CodigoBanco))
+		UPDATE 	dbo.Bancos
+		SET				
+			NombreBanco = @NombreBanco
+		WHERE (CodigoBanco = @CodigoBanco)
+		ELSE
+		RAISERROR ('EL NOMBRE DEL BANCO YA SE ENCUENTRA REGISTRADO',16,2)
+	IF(@@ERROR <> 0)
+	BEGIN
+		ROLLBACK TRANSACTION
+		RAISERROR ('NO SE PUDO INSERTAR CORRECTAMENTE EL REGISTRO',16,2)
+	END
+	ELSE
+		COMMIT TRANSACTION
+
+END
+GO
+
+
+
+DROP PROCEDURE EliminarBanco
+GO
+CREATE PROCEDURE EliminarBanco
+	@CodigoBanco	INT
+AS
+BEGIN
+	DELETE 
+	FROM dbo.Bancos
+	WHERE (CodigoBanco = @CodigoBanco)
+END
+GO
+
+
+
+DROP PROCEDURE ListarBancos
+GO
+CREATE PROCEDURE ListarBancos
+AS
+BEGIN
+	SELECT CodigoBanco, NombreBanco
+	FROM dbo.Bancos
+	ORDER BY CodigoBanco
+END
+GO
+
+
+
+DROP PROCEDURE ObtenerBanco
+GO
+CREATE PROCEDURE ObtenerBanco
+	@CodigoBanco	INT
+AS
+BEGIN
+	SELECT CodigoBanco, NombreBanco
+	FROM dbo.Bancos
+	WHERE (CodigoBanco = @CodigoBanco)
+END
+GO
+
+
+
+--DROP PROCEDURE ObtenerBancos
+--GO
+--CREATE PROCEDURE ObtenerBancos
+--AS
+--BEGIN
+--	SELECT CodigoBanco, NombreBanco
+--	FROM dbo.Bancos
+--END
+--GO
+

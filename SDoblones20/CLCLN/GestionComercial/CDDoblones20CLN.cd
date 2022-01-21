@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLCLN.MonedasCLN">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAgAAAAgIAAAAAEAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>MonedasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.PaisesCLN">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAAAAIEgAgAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaisesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.DepartamentosCLN">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAKAAAAEAAAgAAAAAAAAAAIAEAAAAAA=</HashCode>
+      <FileName>DepartamentosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProvinciasCLN">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAEAAAIAAAAAAIAAAAAAAAIAAAAAAEAAAEA=</HashCode>
+      <FileName>ProvinciasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.LugaresCLN">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAAIACAgAAAAAAAAAAAAAAEAAAAgAAAA=</HashCode>
+      <FileName>LugaresCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.AgenciasCLN">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAIAAAgAQAAAAAAAAAAAAAAAABAQAAA=</HashCode>
+      <FileName>AgenciasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ConfiguracionSistemaCLN">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAEBIBAAAAAAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>ConfiguracionSistemaCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.DocumentosTiposCLN">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAACAAAAAAAAEAAAACAAKEAAA=</HashCode>
+      <FileName>DocumentosTiposCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.EmpresasCLN">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAACAAAIAAAAAAIAAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>EmpresasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProveedoresCLN">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAgAAAAAAIAEAAAAAAAAAQAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ProveedoresCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.MotivosReemDevoCLN">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAABAAIAAAEAAAIAAAAAAAAAAAAAACAAAgA=</HashCode>
+      <FileName>MotivosReemDevoCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosMarcasCLN">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAIAAAAAAAAAAIAAAQAEAAAAAgAAAAA=</HashCode>
+      <FileName>ProductosMarcasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosUnidadesCLN">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductosUnidadesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosTiposCLN">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAIAAAAAEAAgAAACAACAAAAAAAAEAAA=</HashCode>
+      <FileName>ProductosTiposCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosPropiedadesCLN">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAIAIAAQAAAAAAAAEQAACAAAAAAAAAA=</HashCode>
+      <FileName>ProductosPropiedadesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosDescripcionCLN">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABBAAABAIAAAAAAAIAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductosDescripcionCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosCLN">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAAAAAAIgAAAAAAAAAABAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>ProductosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ProductosImagenesCLN">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAggAIAAAAAAAAQABAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ProductosImagenesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.InventariosProductosCLN">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAoABAAAAAAAQAACAAABAAAAAAAAAAA=</HashCode>
+      <FileName>InventariosProductosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.InventariosProductosEspecificosCLN">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIEAAAAIAAAAAAAAEAAAAAAAACAAIAAAAQAA=</HashCode>
+      <FileName>InventariosProductosEspecificosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosCLN">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAAIAAgAAEAAAAAAAAAAAAEAAAAAAEAA=</HashCode>
+      <FileName>ComprasProductosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosDetalleCLN">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACBAAAAIAEAAAAAAABAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComprasProductosDetalleCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosEspecificos">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAIAAIAAAACAAAAQAAACAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ComprasProductosEspecificos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosEspecificosAgregadosCLN">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQJAAAAIAAAAIAAAAAAAgEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComprasProductosEspecificosAgregadosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosDocuImagCLN">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEAABAAAABIAAAAAACAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>ComprasProductosDocuImagCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosReemDevoCLN">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAIAAAIAAQAAAAAAACAAAAKAAAAAAAAAAAA=</HashCode>
+      <FileName>ComprasProductosReemDevoCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosEspecificosReemDevoCLN">
+    <Position X="2.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAYAAAAAAAAABAAgAAABAAAABA=</HashCode>
+      <FileName>ComprasProductosEspecificosReemDevoCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ComprasProductosEspecificosReemDevoCambiosCLN">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComprasProductosEspecificosReemDevoCambiosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.ClientesCLN">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAIAAAAAAgAAAAAAQAAAACAAAAABAAA=</HashCode>
+      <FileName>ClientesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CotizacionVentasProductosCLN">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAIAAAAAAAAAAQAAAAAEEAACAAACAAA=</HashCode>
+      <FileName>CotizacionVentasProductosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CotizacionVentasProductosDetaCLN">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAICAAAAAEAAAAAIAABAAAAAAABAAAA=</HashCode>
+      <FileName>CotizacionVentasProductosDetaCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.FrecuenciasPagosCLN">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAQAAAAAJAAAAAAAAAAAIAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>FrecuenciasPagosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.DepositosBancariosCLN">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAgIBAAAAAAAAAAAAAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>DepositosBancariosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorCobrarCLN">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAEAIAAAAAAAICAAAEAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CuentasPorCobrarCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorCobrarCuotasCLN">
+    <Position X="2.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAIAAAAAAAEAAIAAAACAAAAAAAAAAIA=</HashCode>
+      <FileName>CuentasPorCobrarCuotasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorCobrarAmortizacionesCLN">
+    <Position X="4" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAIAAABAAABAAAAAAgAAEAAAAAgAAAA=</HashCode>
+      <FileName>CuentasPorCobrarAmortizacionesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorPagarCLN">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAAABAAMAAAAAACAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>CuentasPorPagarCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorPagarCuotasCLN">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABACAAAAAAAAIAAAAAAAAAABAAAAAAAAAAACQAAAA=</HashCode>
+      <FileName>CuentasPorPagarCuotasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.CuentasPorPagarAmortizacionesCLN">
+    <Position X="2.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAIAAAAAAAEAAAAAAIAAAQAABAAAAAA=</HashCode>
+      <FileName>CuentasPorPagarAmortizacionesCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosCLN">
+    <Position X="4" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAIAAAABEAAAAAIAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>VentasProductosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosDetalleCLN">
+    <Position X="5.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAAAQIAAAAAAAAAAAACAAAAAAAAABAACAA=</HashCode>
+      <FileName>VentasProductosDetalleCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosEspecificosCLN">
+    <Position X="0.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAEAAIAAAAAAAAAgAAAAAACQAAAAAAAAAA=</HashCode>
+      <FileName>VentasProductosEspecificosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosEspecificosAgregadosCLN">
+    <Position X="2.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIIBAAAAAIAAQQAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>VentasProductosEspecificosAgregadosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosReemDevoCLN">
+    <Position X="4" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAIAIAAAAAAAIAAAAAAAAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VentasProductosReemDevoCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.VentasProductosEspecificosReemDevoCLN">
+    <Position X="5.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAA4AAAAAAAACAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>VentasProductosEspecificosReemDevoCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.BancosCuentasCLN">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAIIAQAQAAAAAEAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>BancosCuentasCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLCLN.BancosCLN">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAIAAAABAEAABAgAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BancosCLN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

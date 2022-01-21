@@ -1,0 +1,21 @@
+861 279 318
+d292vh
+
+
+861 279 318
+z129ck
+
+Antonio, se aumentaron tres campos a la tabla Productos (RendimientoDeseado1, RendimientoDeseado2, RendimientoDeseado3 de tipo Decimal(10,2), en estos campos se almacenaria un porcentaje, que utilizara para calcular los respectivos precios de de venta, para calcular los precios de venta,la formula que aplican es la siguiente: Sobreprecio = CostoUnitariodeCompra / (1 - RendimientoDeseado / 100)
+PreciodeVenta = CostoUnitarioCompra + SobrePrecio,
+
+Asi con el RendimientoDeseado1 se debe calcular el Precio 1 y el Precio 4 (con factura),  con el RendimientoDeseado2 se debe calcular el Precio 2 y el Precio 5 (con factura) y con el RendimientoDeseado3 se debe calcular el Precio 3 y el Precio 5 (con factura).
+
+Honestamente, no estaba muy seguro fabricio en la formula por que no estaba su esposa, pero si varia algo ya te aviso cualquier cosa,
+
+
+Atentamente,
+
+Carlos Pacheco
+
+
+Seria bueno que me hagas conocer si hay alguna otra recomendacion.

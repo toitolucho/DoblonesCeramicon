@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VentaCancelar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaCancelar2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloBuscar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloCancelar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVentaFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVentaFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVentaNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVentaNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaCotizacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaCotizacion.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaAnular3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaAnular3.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraModificarActualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraModificarActualizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaBuscar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaReportes.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CotizacionNuevaDeOtra2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CotizacionNuevaDeOtra2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloAceptar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompraAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompraAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VerEnOtraMoneda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VerEnOtraMoneda.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompraNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompraNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVenta.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioActualizarModificar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioActualizarModificar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraBuscar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompraCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompraCancelar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVentaCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVentaCancelar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioPagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioPagar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraCancelar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraCancelar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaNueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaNueva.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloInterrogacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloInterrogacion1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloActualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloActualizar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaCancelar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloActualizar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloActualizar21.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaAceptar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaAceptar2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloCerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloCerrar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_go.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copia de Find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copia de Find.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioCancelar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaModificar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaModificar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransferenciaFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TransferenciaFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Simboloeditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Simboloeditar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copia de Config" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copia de Config.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaModificar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaModificar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentasBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentasBuscar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraAceptar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraAceptar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompraAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompraAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaNuevaInstitucional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaNuevaInstitucional.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloAgregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloAgregar1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVenta.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServicioAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ServicioAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pagar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraNuevo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraNuevo2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraNuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraNuevo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_error.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaCancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaCancelar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CompraFinalizar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CompraFinalizar2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaActualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaActualizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVentaAceptar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVentaAceptar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VentaNueva2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VentaNueva2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompr.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionCompraFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionCompraFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaFinalizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaFinalizar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DevolucionVentaAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DevolucionVentaAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gtk_print_report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gtk_print_report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splash.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimboloAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimboloAnular1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_add.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntercambioVentaAnular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntercambioVentaAnular.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emblem_sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emblem_sales.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
